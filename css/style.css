@@ -1,0 +1,765 @@
+body {
+    background: #ffffff;
+    color: #000;
+    font-family: 'Noto Sans JP', sans-serif,'Noto Serif JP', serif,'源ノ角ゴシック','Source Han Sans JP',"Hiragino Kaku Gothic ProN","Hiragino Sans";
+}
+.text-left {
+        display: inline-block;
+    }
+.css-br { 
+    display: block;
+    letter-spacing: 4.24px;
+}
+.css-br-sub { 
+    display: block;
+    line-height: 1 !important;
+    font-weight: bold;
+}
+.css-card{
+    display: block;
+}
+.text-small{
+	font-size:1rem;
+}
+.text-small2{
+	font-size:1rem;
+	font-weight: bold;
+}
+.css-br2 { 
+    display: block;
+    font-size: 1.875rem;
+    text-shadow: 0px 0px 0px #00000033;
+    font-weight: normal;
+}
+.css-br-min { 
+    padding-bottom: 0.5rem;
+    display: block;
+}
+.margin-tb {
+    /*margin-top: 3.125rem;*/
+    /*margin-bottom: 3.125rem;*/
+}
+
+.margin-bottom-20 {
+    margin-bottom: 1.5rem;
+}
+.margin-bottom-25 {
+    margin-bottom: 1.7rem;
+}
+.margin-bottom-50 {
+    margin-bottom: 3.125rem;
+}
+.margin-top-0 {
+    margin-top: 0rem;
+}
+.margin-top-100 {
+    margin-top: 3.125rem;
+}
+.padding-top-100 {
+    padding-top: 3.125rem;
+}
+.padding-top-200 {
+    padding-top: 6.25rem;
+}
+.padding-top-300 {
+    padding: 7.5rem 0 4.5rem 0;
+}
+.margin-top-toku {
+    margin-top: 1rem;
+}
+.padding-tb {
+    padding-top: 1.875rem;
+    padding-bottom: 1.2rem;
+}
+.padding-top {
+    padding-top: 3rem;
+}
+.padding-bottom-0 {
+    padding-bottom: 0px;
+}
+.padding-bottom-20 {
+    padding-bottom: 0.7rem;
+}
+.padding-bottom-50 {
+    padding-bottom: 3.125rem;
+}
+.padding-bottom-100{
+    padding-bottom: 6.25rem;
+}
+.item-center {
+    text-align: center;
+}
+.margin-saido{
+	margin: 0 3rem 1rem 3rem!important;
+}
+.text-red {
+    color: #f00;
+}
+.text-yellow {
+    color: #ff0;
+}
+.icon-styles {
+    width: 45px;
+    height: 45px;
+}
+.icon-styles2 {
+    width: 20px;
+    height: auto;
+}
+footer h1 {
+    font-size: 140%;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+footer h2,
+footer p,
+footer ul {
+    font-size: 90%;
+}
+footer a {
+    color: #000;
+    font-size: 90%;
+}
+footer a:hover {
+    color: #999;
+}
+.logoConsul {
+    height: 140px;
+}
+.copyright-style {
+    font-size: 60%;
+}
+/* Navi */
+.navbar-custom, a {
+    background-color: #FFF;
+    color: #000; 
+}
+.navbar-custom a,
+.navbar-custom a:link {
+    color: #000; 
+}
+.navbar-custom a:hover {
+    color: #999; 
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(153, 153, 153, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+.custom-toggler.navbar-toggler {
+    border-color: #999;
+} 
+.item-center2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoMT {
+    height: 1.8rem
+}
+.logoMT2 {
+    height: 2.8rem
+}
+/* TOP */
+.top-img {
+    width: 15rem;
+}
+.parent {
+    width: auto;
+    height: auto;
+    background-image:
+    linear-gradient(45deg, #617FC5 60%, #fff 40%, #fff);
+}
+.top-text {
+    padding: 1rem 0.5rem 0rem 0.5rem;
+    text-align: center;
+    display: block;
+}
+.top-text h2{
+    font-weight: 500;
+    font-size: 2.1rem;
+    color: #FFF; 
+    font-family: 'Noto Sans JP', sans-serif,Hiragino Kaku Gothic ProN;   
+}
+.top-text p{
+    padding-top: 0.5rem;
+    font-weight: 200;
+    font-size: 0.9rem;
+    color: #FFF; 
+    font-family: 'Noto Sans JP', sans-serif,Hiragino Kaku Gothic ProN;    
+}
+/* Contents */
+.con-title h3{
+    text-align: center;
+    font: normal normal 500 1.5rem Yu Mincho;
+}
+.con-title h4{
+    /*margin-bottom: 1.875rem;*/ 
+}
+.con-title p{
+    text-align: center;
+    font: normal normal bold 1rem Source Han Sans JP;
+}
+.con-bottom{
+	margin-bottom: 2rem; 
+}
+
+/* Menue */
+.menue-style {
+    background-color: #F6F6F6;
+    padding: 2rem;
+}
+/* Card */
+.card{
+  border-radius: 2px!important;
+  border: 0px!important;
+}
+.card-body {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #6F757966;
+  border-radius: 2px;
+  opacity: 1;
+  padding: 1rem!important;
+}
+
+.card-body-title{
+    text-shadow: 0.06rem 0.18rem 0.06rem #00000033;
+    background-color: #617FC5;
+    color: #FFF;
+    padding: 0.938rem 0.313rem 0.938rem 0.313rem;
+    border-radius: 2%;
+    margin-bottom: 1.875rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.card-body-title2{
+    text-shadow: 0.06rem 0.18rem 0.06rem #00000033;
+    background-color: #617FC5;
+    color: #FFF;
+    padding: 0.938rem 0.313rem 0.938rem 0.313rem;
+    text-align: center;
+    font-size: 1rem;
+    border: 0rem ;
+}
+.card-devided-border {
+    border-top: #fff solid 0.1rem;
+    padding: 0rem 0rem 0.6rem 0rem;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-body-title h4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.card-body-title2 h4 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.media-icon {
+    height: 80px;
+}
+.card-text-contents .row {
+    margin: 0 6% 0 9%;
+    height: 70px;
+    font-size:1rem;
+    /* text-align: start; */
+}
+.menucard{
+	margin-bottom: 0.5rem!important;
+	font-weight: bold;
+}
+.menutext{
+	font-size:2.5rem!important;
+}
+.btn2 {
+	padding: 1rem 1rem!important;
+	border-radius: 2rem!important;
+}
+.row2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.row3 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.card-text-detail {
+    /* text-align: start; */
+    padding: 0rem 0rem 0rem 0.5rem;
+    font-size: 0.9rem;
+}
+.menue-last-memo {
+    font-size: smaller;
+    text-align: center;
+}
+/* .padding-card-icon  {
+    padding: 10px 5px 5px 10px;
+} */
+.devided-border {
+    border-top: #0F6FB8 solid 0.3125rem;
+}
+.devided-margin {
+    margin-right: 2.5rem;
+}
+img.logoConsul{
+	display:none;
+}
+.padding-kaisha{
+	padding: 3.125rem 0 3.125rem 0;
+}
+.procuct-s-title {
+    margin: 0;
+    /* position: relative; */
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem 0 0.8rem;
+    border-top: solid;
+    border-bottom: solid ;
+    /* width: 50%; */
+    margin: 0 auto 2rem;
+}
+.product-styles {
+    padding: 30px 15px 30px 15px;
+}
+.border-styles {
+    border-radius: 25px;
+    border: 0.4rem double #2580EC;
+    width: 100%;
+}
+.border-styles2 {
+    border-radius: 25px;
+    border: 0.4rem double #2580EC;
+    width: 100%;
+	font-size: 110%;
+	font-weight:bold;
+}
+.border-styles2 ul{
+	font-size: 110%;
+	font-weight:bold;
+}
+.product-styles h5,
+.product-styles2 h5 {
+    padding: 20px 0px 20px 0px;
+}
+.procuct-s-title2 h9 {
+    position: relative;
+    padding:  60px;
+    text-align: center;
+}
+.procuct-s-title2 h9:before {
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0;
+    width: 100%;
+    height: 2px;
+    content: '';
+    background: #000;
+}
+.procuct-s-title2 h9 span {
+    position: relative;
+    padding: 0 0.7em;
+    background: #fff;
+}
+.product-styles2 {
+    padding: 0px  30px 0px 30px;
+}
+.product-styles3 {
+    margin: 30px  15px 30px 15px;
+}
+.product-styles3 h5 {
+    text-align: center;
+    background-color: #4040c5;
+    margin: 0px  30px 0px 30px;
+    padding: 25px 0px 20px 0px;
+    color: #FFF;
+}
+.product-styles3 h6 {
+    text-align: center;
+    background-color: #4040c5;
+    margin: 0px  30px 0px 30px;
+    padding: 5px 0px 25px 0px;
+    color: #FFF;
+    font-size: 120%;
+}
+.con-text h6 {
+    font-weight: bold;
+    font-size: 110%;
+    color: #B855D5;
+}
+.con-text2{
+	font-size: 1rem;
+	font-weight:bold;
+}
+.con-text3, .bold{
+	font-weight:bold;
+}
+.con-text p{
+	line-height: 1.65;
+}
+
+.con-sub{
+	font-size:1rem;
+	font-weight: bold;
+}
+ul.con-list{
+	font-size:1rem;
+	font-weight: bold;
+	padding: 0 10% 0 10%;
+	margin: 1.25rem 0 1.25rem 0;
+}
+
+.list-styles {
+    /* margin: 16px auto; */
+    text-align: center;
+    /* display: block; */
+}
+.list-styles ul {
+    text-align: left;
+    display: inline-block;
+}
+.list-styles-none {
+    text-align: center;
+}
+.list-styles-none ul {
+    text-align: left;
+    display: inline-block;
+    list-style: none;
+}
+.list-styles h5{
+    margin-top: 0.6rem;
+    padding-bottom: 0rem;
+}
+h5{
+	font-size: 1.5rem!important;
+    font-weight: bold!important;
+}
+}
+.list-styles h9{
+    padding-bottom: 1.2rem;
+}
+.list-styles ul{
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+.list-squer{
+    padding-left:0.03rem;
+}
+.listmoji{
+    font-size:110%;
+	color: #3B4043;
+	font-weight: bold;
+	opacity: 1;
+	line-height:1.75;
+}
+.list-squer li{
+    background-image:url(../../img/icon-checkbox.png);
+    background-repeat:no-repeat;
+    background-position:left center;
+    padding-left: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+.brackets-wave-left:before {
+    content: '～';
+    padding-right: 0.7rem;
+}
+.brackets-wave-right:before {
+    content: '～';
+    padding-left: 0.7rem;
+}
+ #ture {
+    text-align-last: justify;       /* Chrome・Firefox用 */
+    text-justify: inter-ideograph;  /* IE・Edge用 */
+ }
+
+/* 特徴 */
+ #Feature img {
+     margin: 0.5rem 0rem 0.5rem 0rem;
+     width: 100%;
+     height: auto;
+ }
+ .border-feature {
+     border-bottom: #999 solid 0.06rem;
+ }
+ .bg-feature1{
+     background: #FFF8F8;
+     border-radius: 1.4rem 1.4rem 0rem 0rem;
+     padding: 0.6rem 0rem 0rem 0rem;
+     margin: 0rem;
+     background-clip: content-box;
+ }
+ .bg-feature2{
+     background-color: #C7D5FB;
+     border-radius: 0.8rem 0.8rem 0rem 0rem;
+ }
+ .bg-feature1-text {
+    position: absolute;
+    top: 50%; /*親要素を起点に上から50%*/
+    left: 50%;  /*親要素を起点に左から50%*/
+    transform: translateY(-50%) translateX(-50%); /*要素の大きさの半分ずつを戻す*/
+    -webkit-transform: translateY(-50%) translateX(-50%); 
+ }
+ .char-vertical {
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+ }
+ #Cost img {
+    width: 100%;
+ }
+
+/* 利用場面 */
+#Situation h9 {
+    padding-bottom: 0rem;
+    display: block;
+}
+ .stuation-title-border {
+    border-top: #DEDEDF solid 0.2rem;
+    border-bottom: #DEDEDE solid 0.2rem;
+    font-weight: bold;
+    padding: 0.6rem 0rem 0.6rem 0rem;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.setsumei{
+	font-size:1rem;
+}
+@media screen and (min-width: 1200px) {
+/*　画面サイズが1200pxからはここを読み込む　*/
+	.top-text {
+        padding: 2rem 0rem 1.5rem 0rem!important;
+        text-align: left!important;
+        display: block;
+    }
+    .text-left {
+        /* text-align: left; */
+        display: inline-block;
+        padding-left: 88px;
+    }
+    .spe-padding {
+        padding:0px 150px 0px 150px;
+        margin-top: 1.875rem;
+        margin-bottom: 1.875rem;
+    }
+    .spe-padding2 {
+        padding:0px 150px 0px 150px;
+    }
+    .spe-margin-bm {
+    	margin-bottom: 1rem;
+    }
+    .question-border {
+        border-right: solid #cacaca 2px;
+    }
+    .parent {
+        width: auto;
+        height: auto;
+        background-image:
+        linear-gradient(27deg, #617FC5 60%, #fff 40%, #fff);
+    }
+    .row2 {
+	    margin-right: 10%;
+    	margin-left: 10%;
+	}
+}
+
+@media screen and (min-width: 991px){ 
+/*　画面サイズが991pxからはここを読み込む　*/
+   .question-border {
+        border-right: solid #cacaca 2px;
+    }
+   .row2 {
+    margin-right: 5%;
+    margin-left: 5%;
+	}
+	.row3 {
+	margin-right: 7%;
+    margin-left: 7%;
+    }
+	.stuation-title-border {
+    padding: 1rem 0rem 1rem 0rem;
+    width: 50%;
+    }
+}
+@media screen and (min-width: 600px) and ( max-width:1024px){
+    .stuation-title-border {
+        width: 65%;
+    }
+}
+@media screen and (min-width: 600px) {
+/*　画面サイズが600pxからはここを読み込む　*/
+    body {
+        font-size: 90%;
+    }
+    .margin-bottom {
+    	margin-bottom: 4.125rem;
+	}
+	.row2 {
+ 	   margin-right: 0%;
+ 	   margin-left: 0%;
+	}
+    .text-left {
+        /* text-align: left; */
+        display: inline-block;
+        padding-left: 88px;
+    }
+    .parent {
+        width: auto;
+        height: auto;
+        background-image:
+        linear-gradient(27deg, #617FC5 65%, #fff 35%, #fff);
+    }
+    .top-text {
+        padding: 2rem 0rem 1.5rem 0rem!important;
+        text-align: left!important;
+        display: block;
+    }
+    .top-text h2{
+        font-weight: 500;
+        font-size: 2.7rem;
+        color: #FFF; 
+        font-family: 'Noto Sans JP', sans-serif,Hiragino Kaku Gothic ProN;   
+    }
+    .top-text p{
+        padding-top: 1.5rem;
+        font-weight: 300;
+        font-size: 1.4rem;
+        color: #FFF; 
+        font-family: 'Noto Sans JP', sans-serif,Hiragino Kaku Gothic ProN;
+    } 
+    .con-title h3{
+        text-align: center;
+        margin-bottom: 2rem;
+        font: normal normal 600 2rem Yu Mincho;
+        color: #3B4043;
+    }
+    .con-title h4{
+        /*margin-bottom: 1.875rem;*/ 
+    }
+    .con-title p{
+        text-align: center;
+        font: normal normal bold 1.375rem Source Han Sans JP;
+    }
+    .con-sub {
+    	padding: 0 5% 0 5%;
+	}
+    .stuation-title-border {
+        padding: 1rem 0rem 1rem 0rem;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+   }
+   .border-styles {
+       border-radius: 25px;
+       border: 0.4rem double #2580EC;
+       width: 100%;
+   }
+   .list-squer li{
+       background-image:url(../../img/icon-checkbox.png);
+       background-repeat:no-repeat;
+       background-position:left center;
+       padding-left: 2rem;
+       margin-bottom: 0.8rem;
+   }
+   .padding-tb-sm {
+       padding-top: 1.875rem;
+       padding-bottom: 1.875rem;
+   }
+   .padding-tb-sm2 {
+       padding-top: 1rem;
+       padding-bottom: 1rem;
+   }
+   .char-vertical {
+      -ms-writing-mode: horizontal-tb;
+      writing-mode: horizontal-tb;
+   }
+   .css-br-min { 
+       display: inline;
+   }
+   .css-br-big { 
+       display: block;
+   }
+   .card-body-title{
+       text-shadow: 0.063rem 0.188rem 0.063rem #00000033;
+       background-color: #617FC5;
+       color: #FFF;
+       padding: 0.938rem 0.313rem 0.938rem 0.313rem;
+       border-radius: 2%;
+       margin-bottom: 1.875rem;
+       text-align: center;
+       font-size: 1.2rem;
+       background: #617FC5 0% 0% no-repeat padding-box;
+	   box-shadow: 0px 3px 6px #6F757966;
+       border-radius: 10px;
+       opacity: 1;
+   }
+   .card-body-title2{
+       text-shadow: 0.063rem 0.188rem 0.063rem #00000033;
+       background-color: #617FC5;
+       color: #FFF;
+       padding: 0.5rem 0.313rem 0.5rem 0.313rem;
+       text-align: center;
+       font-size: 1.2rem;
+       border: 0rem ;
+   }
+    .card-text-detail {
+      padding: 0px 0px 0px 0px;
+      font-size: 1rem;
+      font-weight: bold;
+   }
+   .copyright-style {
+       font-size: 80%;
+   }
+ }
+@media screen and (min-width: 0px) and ( max-width:389px){
+/*　画面サイズが390pxから768pxまではここを読み込む　*/ 
+.card-text-contents .row {
+    margin: 0 0 0 0;
+   }
+}
+@media screen and (min-width: 390px) and ( max-width:768px){
+/*　画面サイズが390pxから768pxまではここを読み込む　*/ 
+.card-text-contents .row {
+    margin: 0 6% 0 6%;
+   }
+}
+@media screen and (min-width: 769px) and ( max-width:991px){
+/*　画面サイズが769pxから991pxまではここを読み込む　*/ 
+.card-text-contents .row {
+    margin: 0 6% 0 19%;
+   }
+}
+@media screen and (min-width: 0px) and ( max-width:575px){
+/*　画面サイズが0pxから400pxまではここを読み込む　*/
+	.margin-bottom {
+    margin-bottom: 2rem;
+}
+	.row3 {
+		margin-right: 1%;
+		margin-left: 1%;
+	}
+	.con-title{
+	margin-bottom: 1rem;
+	}
+	.menue-style {
+  	  padding: 2rem 0;
+}
+}
+@media screen and (min-width: 400px){ 
+/*　画面サイズが400pxからはここを読み込む　*/
+.card {
+    margin-bottom: 2rem;
+}
+}
