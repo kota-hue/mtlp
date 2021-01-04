@@ -755,7 +755,10 @@ h5{
 	}
 	.menue-style {
   	  padding: 2rem 0;
-}
+	}
+	.card:first-child{
+	margin-bottom:1rem;
+	}
 }
 @media screen and (min-width: 400px){ 
 /*　画面サイズが400pxからはここを読み込む　*/
