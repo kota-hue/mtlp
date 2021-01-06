@@ -748,6 +748,13 @@ h5{
 	.margin-bottom {
     margin-bottom: 2rem;
 	}
+	.list-squer li{
+       background-image:url(https://kota-hue.github.io/mtlp/img/icon-checkbox.png);
+       background-repeat:no-repeat;
+       background-position:left center;
+       padding-left: 1rem;
+       margin-bottom: 0.8rem;
+	}
 	.row3 {
 		margin-right: 1%;
 		margin-left: 1%;
