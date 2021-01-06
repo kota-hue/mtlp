@@ -39,7 +39,7 @@ body {
     /*margin-top: 3.125rem;*/
     /*margin-bottom: 3.125rem;*/
 }
-h3 span{
+h3 span,ul li span{
 	display: inline-block;
 }
 .margin-bottom-20 {
