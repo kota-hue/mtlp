@@ -669,7 +669,7 @@ h5{
        width: 100%;
    }
    .list-squer li{
-       background-image:url(../../img/icon-checkbox.png);
+       background-image:url(/img/icon-checkbox.png);
        background-repeat:no-repeat;
        background-position:left center;
        padding-left: 2rem;
